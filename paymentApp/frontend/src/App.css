@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#expandcvc{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#cardNoIp{
+  width: 450px;
+  height:25px;
+}
+#expdate{
+  width: 200px;
+  height:20px;
+}
+#expir{
+  padding-right: 70px;
+}
+#cvc{
+  width: 175px;
+  height:20px;
+}
+#owner{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+#name{
+  width: 450px;
+  height:25px;
+}
+#btn{
+  width: 450px;
+  height:40px;
+  background-color:green;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: Serif;
+}
+#btn:hover{
+  background-color: rgb(106, 165, 17);
+}
+#img{
+  padding-top: 100px;
+}
