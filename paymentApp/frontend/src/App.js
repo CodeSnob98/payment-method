@@ -9,7 +9,8 @@ function App() {
   const [cvc,setCvc]=React.useState(null);
   const [name,setName]=React.useState(null);
   function handleClick(){
-    let c=new Date();
+       if(cardnum&&expdate&&cvc&&name){
+      let c=new Date();
     let d=`${c.getFullYear()}/${c.getMonth()}`;
     if((cardnum<=9999999999999999)&&(cardnum>=1000000000000000)&&(d<=expdate)){
       axios.post("http://localhost:5000/",{
@@ -28,6 +29,9 @@ function App() {
  }else{
      alert(`make sure the card number is 16 digits and the card is not expined`);
  }
+    }else{
+      alert(`please fillup all the fields`);
+    }
   }
   return (
     <div className="App">
