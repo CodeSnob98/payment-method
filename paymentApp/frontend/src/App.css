@@ -39,13 +39,13 @@
 #btn{
   width: 450px;
   height:40px;
-  background-color:green;
+  background-color:rgb(106, 165, 17);
   border-radius: 7px;
   font-size: 20px;
   font-family: Serif;
 }
 #btn:hover{
-  background-color: rgb(106, 165, 17);
+  background-color: rgb(156, 238, 34);
 }
 #img{
   padding-top: 100px;
